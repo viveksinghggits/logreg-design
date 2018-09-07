@@ -1,0 +1,60 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#main{
+    width: 801px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.box{
+    padding: 20px;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 1px;
+    
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    cursor: pointer;
+}
+#content{
+    -webkit-transform: scale(1.3);
+    position: absolute;
+    margin-left: 337px;
+    background-image: url("images/leaves-pattern/leaves-pattern.png");
+    width: 280px;
+    -webkit-transition: all cubic-bezier(0.25, 0.1, 0, 1.89) 500ms;
+}
+
+#login, #register{
+    width: 45%;
+    height: 150px;
+    background-image: url("images/old_wall/old_wall.png");
+}
+.forms{
+    width: 183px;
+    margin: auto;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    border:1px solid #00008b5c;
+}
+
+.buttons{
+    background-color: #00008b8a;
+    color: white;
+}
+#registerform{
+    display: none;
+}
+.showlinks{
+    border: 1px solid sandybrown;
+    padding: 5px;
+    border-radius: 2px;
+}
